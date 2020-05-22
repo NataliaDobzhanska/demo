@@ -2,24 +2,79 @@
   "schedule":{
     "friday":{
       "workday":"1",
-      "starttime_hour":"8",
+      "starttime_hour":"10",
       "starttime_minute":"30",
-      "endtime_hour":"12",
+      "endtime_hour":"20",
       "endtime_minute":"30",
       "lunchstarttime_hour":"13",
       "lunchstarttime_minute":"30",
-      "lunchendtime_hour":"18",
+      "lunchendtime_hour":"14",
       "lunchendtime_minute":"30"
     },
     "saturday":{
       "workday":"0",
-      "starttime_hour":"8",
+      "starttime_hour":"10",
       "starttime_minute":"30",
-      "endtime_hour":"12",
+      "endtime_hour":"20",
       "endtime_minute":"30",
       "lunchstarttime_hour":"13",
       "lunchstarttime_minute":"30",
-      "lunchendtime_hour":"18",
+      "lunchendtime_hour":"14",
+      "lunchendtime_minute":"30"
+    },
+    "sunday":{
+      "workday":"0",
+      "starttime_hour":"10",
+      "starttime_minute":"30",
+      "endtime_hour":"20",
+      "endtime_minute":"30",
+      "lunchstarttime_hour":"13",
+      "lunchstarttime_minute":"30",
+      "lunchendtime_hour":"14",
+      "lunchendtime_minute":"30"
+    },
+    "monday":{
+      "workday":"1",
+      "starttime_hour":"10",
+      "starttime_minute":"30",
+      "endtime_hour":"20",
+      "endtime_minute":"30",
+      "lunchstarttime_hour":"13",
+      "lunchstarttime_minute":"30",
+      "lunchendtime_hour":"14",
+      "lunchendtime_minute":"30"
+    },
+    "tuesday":{
+      "workday":"0",
+      "starttime_hour":"10",
+      "starttime_minute":"30",
+      "endtime_hour":"20",
+      "endtime_minute":"30",
+      "lunchstarttime_hour":"13",
+      "lunchstarttime_minute":"30",
+      "lunchendtime_hour":"14",
+      "lunchendtime_minute":"30"
+    },
+    "wednesday":{
+      "workday":"1",
+      "starttime_hour":"10",
+      "starttime_minute":"30",
+      "endtime_hour":"20",
+      "endtime_minute":"30",
+      "lunchstarttime_hour":"13",
+      "lunchstarttime_minute":"30",
+      "lunchendtime_hour":"14",
+      "lunchendtime_minute":"30"
+    },
+    "thursday":{
+      "workday":"0",
+      "starttime_hour":"10",
+      "starttime_minute":"30",
+      "endtime_hour":"20",
+      "endtime_minute":"30",
+      "lunchstarttime_hour":"13",
+      "lunchstarttime_minute":"30",
+      "lunchendtime_hour":"14",
       "lunchendtime_minute":"30"
     }
   }
