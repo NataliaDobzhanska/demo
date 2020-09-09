@@ -1,26 +1,104 @@
 {
-  "schedule":{
-    "monday":{
-      "workday":"1",
-      "starttime_hour":"10",
-      "starttime_minute":"30",
-      "endtime_hour":"20",
-      "endtime_minute":"30",
-      "lunchstarttime_hour":"13",
-      "lunchstarttime_minute":"30",
-      "lunchendtime_hour":"14",
-      "lunchendtime_minute":"30"
+  "products": [
+    {
+      "id": "1",
+      "title": "Electricité",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus sollicitudin nunc, in efficitur elit ultricies id. Curabitur laoreet nisi tristique libero pretium, sed fermentum lorem ultricies.",
+      "icon": "flash_on",
+      "subproducts": [
+        {
+          "title": "Gestion de votre réseau EP",
+          "active": false
+        },
+        {
+          "title": "Mettre en valeur votre patrimoine",
+          "active": false
+        },
+        {
+          "title": "Eclairage de Noel",
+          "active": false
+        },
+        {
+          "title": "EEclairage sportif",
+          "active": false
+        }
+      ]
     },
-    "tuesday":{
-      "workday":"0",
-      "starttime_hour":"10",
-      "starttime_minute":"30",
-      "endtime_hour":"20",
-      "endtime_minute":"30",
-      "lunchstarttime_hour":"13",
-      "lunchstarttime_minute":"30",
-      "lunchendtime_hour":"14",
-      "lunchendtime_minute":"30"
+    {
+      "id": "2",
+      "title": "Solaire",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus sollicitudin nunc, in efficitur elit ultricies id. Curabitur laoreet nisi tristique libero pretium, sed fermentum lorem ultricies.",
+      "icon": "wb_sunny",
+      "subproducts": [
+        {
+          "title": "Analyse du potentiel solaire",
+          "active": true
+        },
+        {
+          "title": "Contracting solaire",
+          "active": false
+        },
+        {
+          "title": "Monitoring des installations",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Eau",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus sollicitudin nunc, in efficitur elit ultricies id. Curabitur laoreet nisi tristique libero pretium, sed fermentum lorem ultricies.",
+      "icon": "water_damage",
+      "subproducts": [
+        {
+          "title": "Gestion des réseaux",
+          "active": false
+        },
+        {
+          "title": "Aide à la planification",
+          "active": false
+        },
+        {
+          "title": "Revalorisation du réseau",
+          "active": false
+        },
+        {
+          "title": "Facturation et comptage",
+          "active": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Mobilité",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus sollicitudin nunc, in efficitur elit ultricies id. Curabitur laoreet nisi tristique libero pretium, sed fermentum lorem ultricies.",
+      "icon": "electrical_services",
+      "subproducts": [
+        {
+          "title": "Développement de votre réseau",
+          "active": false
+        },
+        {
+          "title": "Accompagnement à la mobilité",
+          "active": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Telecommunication",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus sollicitudin nunc, in efficitur elit ultricies id. Curabitur laoreet nisi tristique libero pretium, sed fermentum lorem ultricies.",
+      "icon": "phone_enabled",
+      "subproducts": [
+        {
+          "title": "Carte data",
+          "active": false
+        },
+        {
+          "title": "Equipement mobile",
+          "active": false
+        }
+      ]
     }
-  }
+  ]
 }
